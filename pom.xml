@@ -30,10 +30,12 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.2.1</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
 		<dependency>
-			<groupId>io.github.bonigarcia</groupId>
-			<artifactId>webdrivermanager</artifactId>
-			<version>3.7.1</version>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-firefox-driver</artifactId>
+			<version>4.6.0</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -56,6 +58,13 @@
 			<groupId>com.opencsv</groupId>
 			<artifactId>opencsv</artifactId>
 			<version>5.6</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/log4j/log4j -->

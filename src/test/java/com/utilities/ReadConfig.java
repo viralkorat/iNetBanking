@@ -22,6 +22,28 @@ public class ReadConfig {
 		}
 	}
 	
+	public String getApplicationURL() {
+		String url = pro.getProperty("baseURL");
+		return url;
+	}
 	
+	public String getUsername() {
+		String uname = pro.getProperty("username");
+		return uname;
+	}
 
+	public String getUserPassword() {
+		String pass = pro.getProperty("password");
+		return pass;
+	}
+	
+	public String getChromePath() {
+		String chromepath = pro.getProperty("chromepath");
+		return chromepath;
+	}
+
+	public String getFirefoxPath() {
+		String firefoxpath = pro.getProperty("firefoxpath");
+		return firefoxpath;
+	}
 }
