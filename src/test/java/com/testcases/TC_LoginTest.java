@@ -18,7 +18,6 @@ public class TC_LoginTest extends BaseClass {
 
 		lp.setUserName(username);
 		lp.setPassword(password);
-
 		lp.loginButton();
 
 		if (driver.getTitle().equals("Guru99 Bank Manager HomePage")) {
