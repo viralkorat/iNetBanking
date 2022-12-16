@@ -12,7 +12,7 @@ public class TC_LoginTest extends BaseClass {
 	@Test(priority = 1, description = "Login Successfull!")
 	public void loginTest() throws IOException {
 
-		//logger.info("URL is opened");
+		logger.info("URL is opened");
 
 		LoginPage lp = new LoginPage(driver);
 

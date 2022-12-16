@@ -9,8 +9,9 @@
   <test name="BankingApp Test">
   	<parameter name="browserName" value="chrome"></parameter>
     <classes>
-      <!-- <class name="com.testcases.TC_LoginTest"/> -->
-      <class name="com.testcases.TC_Login_DDTest"/>
+      <class name="com.testcases.TC_LoginTest"/>
+     <!--  <class name="com.testcases.TC_Login_DDTest"/> -->
+      <class name="com.testcases.TC_AddCustomerTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

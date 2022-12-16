@@ -10,7 +10,7 @@ public class AddCustomerPage {
 	WebDriver driver;
 	
 	public AddCustomerPage(WebDriver driver) {
-		driver=this.driver;
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -65,10 +65,10 @@ public class AddCustomerPage {
 	}
 	
 	//DOB is in mm/dd/yyyy format
-	public void customerDOB(String mm, String dd, String yyyy) {
+	public void customerDOB(String yy,String mm, String dd) {
+		customer_dob.sendKeys(yy);
 		customer_dob.sendKeys(mm);
 		customer_dob.sendKeys(dd);
-		customer_dob.sendKeys(yyyy);
 	}
 	
 	public void customerAddress(String cadd) {
