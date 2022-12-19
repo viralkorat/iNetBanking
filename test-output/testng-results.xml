@@ -1,108 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="iNetBanking" duration-ms="18539" started-at="2022-12-16T13:19:08 EST" finished-at="2022-12-16T13:19:27 EST">
+  <suite name="iNetBanking" duration-ms="13994" started-at="2022-12-16T22:28:39 EST" finished-at="2022-12-16T22:28:53 EST">
     <groups>
     </groups>
-    <test name="BankingApp Test" duration-ms="18539" started-at="2022-12-16T13:19:08 EST" finished-at="2022-12-16T13:19:27 EST">
+    <test name="BankingApp Test" duration-ms="13994" started-at="2022-12-16T22:28:39 EST" finished-at="2022-12-16T22:28:53 EST">
       <class name="com.testcases.TC_LoginTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testcases.TC_LoginTest@376b4233]" name="setup" is-config="true" duration-ms="6968" started-at="2022-12-16T13:19:09 EST" finished-at="2022-12-16T13:19:16 EST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testcases.TC_LoginTest@17211155]" name="setup" is-config="true" duration-ms="3395" started-at="2022-12-16T22:28:39 EST" finished-at="2022-12-16T22:28:43 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.testcases.TC_LoginTest@376b4233]" name="loginTest" duration-ms="980" started-at="2022-12-16T13:19:16 EST" description="Login Successfull!" finished-at="2022-12-16T13:19:17 EST">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.testcases.TC_LoginTest@17211155]" name="loginTest" duration-ms="912" started-at="2022-12-16T22:28:43 EST" description="Login Successfull!" finished-at="2022-12-16T22:28:44 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.TC_LoginTest@376b4233]" name="tearDown" is-config="true" duration-ms="852" started-at="2022-12-16T13:19:17 EST" finished-at="2022-12-16T13:19:17 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.TC_LoginTest@17211155]" name="tearDown" is-config="true" duration-ms="694" started-at="2022-12-16T22:28:44 EST" finished-at="2022-12-16T22:28:44 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testcases.TC_LoginTest -->
       <class name="com.testcases.TC_AddCustomerTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testcases.TC_AddCustomerTest@1f021e6c]" name="setup" is-config="true" duration-ms="3695" started-at="2022-12-16T13:19:17 EST" finished-at="2022-12-16T13:19:21 EST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testcases.TC_AddCustomerTest@4ae82894]" name="setup" is-config="true" duration-ms="2259" started-at="2022-12-16T22:28:44 EST" finished-at="2022-12-16T22:28:47 EST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="addNewCustomer()[pri:0, instance:com.testcases.TC_AddCustomerTest@1f021e6c]" name="addNewCustomer" duration-ms="5087" started-at="2022-12-16T13:19:21 EST" finished-at="2022-12-16T13:19:26 EST">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[Dismissed user prompt dialog: please fill all fields: 
-Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
-System info: host: 'CATOR-VKORAT1', ip: '172.19.24.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [965db174-9205-416e-99ab-f91c8e9f5bf0, getPageSource {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:50388, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25416, moz:profile: C:\Users\vkorat\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:50388/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 965db174-9205-416e-99ab-f91c8e9f5bf0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: please fill all fields: 
-Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
-System info: host: 'CATOR-VKORAT1', ip: '172.19.24.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [965db174-9205-416e-99ab-f91c8e9f5bf0, getPageSource {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0, moz:accessibilityChecks: false, moz:buildID: 20221208122842, moz:debuggerAddress: 127.0.0.1:50388, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25416, moz:profile: C:\Users\vkorat\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:50388/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 965db174-9205-416e-99ab-f91c8e9f5bf0
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:610)
-at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:413)
-at com.testcases.TC_AddCustomerTest.addNewCustomer(TC_AddCustomerTest.java:51)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.testcases.TC_AddCustomerTest@4ae82894]" name="addNewCustomer" duration-ms="5920" started-at="2022-12-16T22:28:47 EST" finished-at="2022-12-16T22:28:53 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.TC_AddCustomerTest@1f021e6c]" name="tearDown" is-config="true" duration-ms="769" started-at="2022-12-16T13:19:26 EST" finished-at="2022-12-16T13:19:27 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.TC_AddCustomerTest@4ae82894]" name="tearDown" is-config="true" duration-ms="691" started-at="2022-12-16T22:28:53 EST" finished-at="2022-12-16T22:28:53 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
